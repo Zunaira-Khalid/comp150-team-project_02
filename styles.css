@@ -1,7 +1,7 @@
 body {
   background: #102B50;
-  color: #FFFFFF;
-  font-family: 'DM Sans';
+  color: white;
+  font-family: 'DM Sans', sans-serif;
   text-align: center;
   margin: 0;
 }
@@ -9,25 +9,29 @@ body {
 header {
   background: #0A1C35;
   color: white;
-  padding: 40px;
+  padding: 45px 20px;
 }
 
-h1, h2 {
-  font-family: 'Playfair Display';
-}
-
-h1 {
+header h1 {
   color: #F2D15C;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin: 0;
 }
 
-a {
-  color: #258F91;
-  font-weight: bold;
+header p {
+  font-size: 18px;
+  margin-top: 12px;
 }
 
-img {
-  width; 250px;
-  height: 180px;
-  border: 5px solid #F2D15C;
-  object-fit: cover;
+h2 {
+  color: #F2D15C;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+body > p {
+  font-size: 17px;
+  margin: 15px 20px 30px;
 }
